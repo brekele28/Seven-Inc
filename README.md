@@ -27,11 +27,10 @@ Repository ini menjadi bagian dari dokumentasi proses pengembangan sistem E-Recr
 ### Frontend
 
 - React.js
-- Vite.js
 - Tailwind CSS
 - JavaScript
 - React Router
-- Library UI Pendukung(SweetAlert2)
+- SweetAlert2
 
 ### Backend
 
