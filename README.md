@@ -1,13 +1,16 @@
 # Seven Inc
 
-![Status](https://img.shields.io/badge/Status-Development-green)
-![Laravel](https://img.shields.io/badge/Laravel-12-red)
-![React](https://img.shields.io/badge/React-19-61DAFB)
-![Vite](https://img.shields.io/badge/Vite-v7.3.5-8B5CF6)
-![React Router](https://img.shields.io/badge/React_Router-v7-EC4899)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-FACC15)
-![MySQL](https://img.shields.io/badge/MySQL-8-FF8C00)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="120" alt="React Logo">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://vitejs.dev/logo.svg" width="120" alt="Vite Logo">
+</p>
+
+<h1 align="center">Frontend - Seven Inc</h1>
+
+<p align="center">
+  React.js + Vite.js Frontend for Seven Inc E-Recruitment System
+</p>
 
 ## About Project
 
