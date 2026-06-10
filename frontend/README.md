@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://react.dev/learn" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="110" alt="React Logo"></a>
+</p>
+
 # Frontend - Seven Inc
 
 Frontend aplikasi Sistem E-Recruitment Pegawai pada Website Company Profile Seven Inc.
