@@ -6,12 +6,6 @@
   <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a>
 </p>
 
-<h1 align="center">Frontend - Backend</h1>
-
-<p align="center">
-  React.js + Laravel 12 Frontend and Backend for Seven Inc E-Recruitment System
-</p>
-
 ## About Project
 
 Sistem E-Recruitment Pegawai pada Website Company Profile Seven Inc.
