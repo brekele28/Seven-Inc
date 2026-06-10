@@ -31,7 +31,7 @@ Repository ini menjadi bagian dari dokumentasi proses pengembangan sistem E-Recr
 - JavaScript
 - Axios
 - React Router
-- Library UI Pendukung
+- Library UI Pendukung(SweetAlert2)
 
 ### Backend
 
