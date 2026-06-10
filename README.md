@@ -3,14 +3,13 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="120" alt="React Logo">
   &nbsp;&nbsp;&nbsp;
-  <img src="https://vitejs.dev/logo.svg" width="120" alt="Vite Logo">
   <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a>
 </p>
 
-<h1 align="center">Frontend - Seven Inc</h1>
+<h1 align="center">Frontend - Backend</h1>
 
 <p align="center">
-  React.js + Vite.js Frontend for Seven Inc E-Recruitment System
+  React.js + Laravel 12 Frontend and Backend for Seven Inc E-Recruitment System
 </p>
 
 ## About Project
