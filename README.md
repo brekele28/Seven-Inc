@@ -4,6 +4,7 @@
 ![Laravel](https://img.shields.io/badge/Laravel-12-red)
 ![React](https://img.shields.io/badge/React-v19.2-61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.3-38BDF8)
+![Vite](https://img.shields.io/badge/TailwindCSS-v4.3-ungu)
 
 ## About Project
 
