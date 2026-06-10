@@ -1,5 +1,3 @@
-# Seven Inc
-
 ## About Project
 
 Sistem E-Recruitment Pegawai pada Website Company Profile Seven Inc.
