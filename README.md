@@ -1,9 +1,9 @@
 # Seven Inc
 
-![Status](https://img.shields.io/badge/Status-Development-blue)
+![Status](https://img.shields.io/badge/Status-Development-green)
 ![Laravel](https://img.shields.io/badge/Laravel-12-red)
-![React](https://img.shields.io/badge/React-19-61DAFB)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8)
+![React](https://img.shields.io/badge/React-v19.2-61DAFB)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.3-38BDF8)
 
 ## About Project
 
@@ -17,7 +17,7 @@ Halo, saya **Rois Ali Fernanda**.
 
 Seorang **Fullstack Developer** yang berfokus pada pengembangan aplikasi web modern menggunakan React.js dan Laravel.
 
-Repository ini menjadi bagian dari personal branding dan dokumentasi proses pengembangan sistem E-Recruitment untuk Seven Inc.
+Repository ini menjadi bagian dari dokumentasi proses pengembangan sistem E-Recruitment untuk Seven Inc.
 
 ---
 
