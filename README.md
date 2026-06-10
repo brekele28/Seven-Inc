@@ -2,9 +2,12 @@
 
 ![Status](https://img.shields.io/badge/Status-Development-green)
 ![Laravel](https://img.shields.io/badge/Laravel-12-red)
-![React](https://img.shields.io/badge/React-v19.2-61DAFB)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.3-38BDF8)
-![Vite](https://img.shields.io/badge/Vite-v7.3.5-purple)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![Vite](https://img.shields.io/badge/Vite-v7.3.5-8B5CF6)
+![React Router](https://img.shields.io/badge/React_Router-v7-EC4899)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-FACC15)
+![MySQL](https://img.shields.io/badge/MySQL-8-FF8C00)
 
 ## About Project
 
@@ -30,7 +33,6 @@ Repository ini menjadi bagian dari dokumentasi proses pengembangan sistem E-Recr
 - Vite.js
 - Tailwind CSS
 - JavaScript
-- Axios
 - React Router
 - Library UI Pendukung(SweetAlert2)
 
