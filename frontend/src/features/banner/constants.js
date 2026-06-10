@@ -1,0 +1,1 @@
+export const BANNER_WA_NUMBER = "0816666207";
