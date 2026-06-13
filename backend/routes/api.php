@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
 use App\Http\Controllers\Api\NavbarLogoController;
+use App\Http\Controllers\Api\FileController;
 use App\Http\Controllers\Api\LowonganController;
 use App\Http\Controllers\Api\PublicLamaranController;
 use App\Http\Controllers\Api\AdminPelamarController;
@@ -36,6 +37,8 @@ Route::post('/public/lamaran', [PublicLamaranController::class, 'store']);
 Route::get('/public/lamaran/{kodeLamaran}', [PublicLamaranController::class, 'show']);
 Route::get('/public/lamaran-search', [PublicLamaranController::class, 'searchByPhone']);
 
+// PUBLIC: preview CV PDF
+Route::get('/public/cv/{id}', [FileController::class, 'previewCv']);
 
 // --- LORONG RAHASIA (Hanya untuk Admin yang punya Gelang Ajaib) ---
 Route::middleware('admin.auth')->group(function () {

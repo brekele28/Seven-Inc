@@ -5,7 +5,15 @@ import { ExternalLink, FileText, X } from "lucide-react";
 import { normalizeApiFileUrl } from "../../../api/client/ApiClient";
 
 function isPdfUrl(url = "") {
-    return String(url || "").toLowerCase().split("?")[0].includes(".pdf");
+    if (!url) return false;
+
+    const cleanUrl = String(url).toLowerCase().split("?")[0];
+
+    return (
+        cleanUrl.includes(".pdf") ||
+        cleanUrl.includes("/cv/") ||
+        cleanUrl.includes("/public/cv/")
+    );
 }
 
 function buildPdfPreviewUrl(url = "") {

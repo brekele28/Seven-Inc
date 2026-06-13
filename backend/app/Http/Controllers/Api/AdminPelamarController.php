@@ -15,13 +15,13 @@ class AdminPelamarController extends Controller
     public function index(Request $request)
     {
         $query = Lamaran::with([
-                'pelamar',
-                'lowongan',
-                'statusLamaran',
-                'cv',
-                'interview',
-                'dataPenerimaanKaryawan',
-            ])
+            'pelamar',
+            'lowongan',
+            'statusLamaran',
+            'cv',
+            'interview',
+            'dataPenerimaanKaryawan',
+        ])
             ->latest();
 
         if ($request->filled('q')) {
@@ -56,21 +56,21 @@ class AdminPelamarController extends Controller
 
         return response()->json([
             'message' => 'Data pelamar berhasil diambil.',
-            'data' => $data->through(fn ($lamaran) => $this->formatLamaran($lamaran)),
+            'data' => $data->through(fn($lamaran) => $this->formatLamaran($lamaran)),
         ]);
     }
 
     public function show(int $id)
     {
         $lamaran = Lamaran::with([
-                'pelamar',
-                'lowongan',
-                'statusLamaran',
-                'cv',
-                'reviewer',
-                'interview',
-                'dataPenerimaanKaryawan',
-            ])
+            'pelamar',
+            'lowongan',
+            'statusLamaran',
+            'cv',
+            'reviewer',
+            'interview',
+            'dataPenerimaanKaryawan',
+        ])
             ->find($id);
 
         if (!$lamaran) {
@@ -122,9 +122,9 @@ class AdminPelamarController extends Controller
     public function destroy(int $id)
     {
         $lamaran = Lamaran::with([
-                'statusLamaran',
-                'dokumen',
-            ])
+            'statusLamaran',
+            'dokumen',
+        ])
             ->find($id);
 
         if (!$lamaran) {
@@ -239,7 +239,7 @@ class AdminPelamarController extends Controller
             'cv' => $lamaran->cv ? [
                 'id' => $lamaran->cv->id,
                 'nama_file' => $lamaran->cv->nama_file,
-                'url' => Storage::disk('public')->url($lamaran->cv->path_file),
+                'url' => url('/api/public/cv/' . $lamaran->cv->id),
                 'tipe_file' => $lamaran->cv->tipe_file,
                 'ukuran_file' => $lamaran->cv->ukuran_file,
             ] : null,

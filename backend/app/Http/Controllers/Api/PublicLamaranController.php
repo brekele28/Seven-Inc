@@ -137,7 +137,7 @@ class PublicLamaranController extends Controller
 
         return response()->json([
             'message' => 'Data lamaran berhasil diambil.',
-            'data' => $lamaran->map(fn ($item) => $this->formatLamaran($item)),
+            'data' => $lamaran->map(fn($item) => $this->formatLamaran($item)),
         ]);
     }
 
@@ -230,7 +230,7 @@ class PublicLamaranController extends Controller
             'cv' => $lamaran->cv ? [
                 'id' => $lamaran->cv->id,
                 'nama_file' => $lamaran->cv->nama_file,
-                'url' => Storage::disk('public')->url($lamaran->cv->path_file),
+                'url' => url('/api/public/cv/' . $lamaran->cv->id),
                 'tipe_file' => $lamaran->cv->tipe_file,
                 'ukuran_file' => $lamaran->cv->ukuran_file,
             ] : null,
