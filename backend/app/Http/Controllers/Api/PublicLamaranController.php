@@ -230,7 +230,11 @@ class PublicLamaranController extends Controller
             'cv' => $lamaran->cv ? [
                 'id' => $lamaran->cv->id,
                 'nama_file' => $lamaran->cv->nama_file,
-                'url' => url('/api/public/cv/' . $lamaran->cv->id),
+                'url' => str_replace(
+                    'http://',
+                    'https://',
+                    url('/api/public/cv/' . $lamaran->cv->id)
+                ),
                 'tipe_file' => $lamaran->cv->tipe_file,
                 'ukuran_file' => $lamaran->cv->ukuran_file,
             ] : null,
